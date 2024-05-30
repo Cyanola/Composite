@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top right, steelblue, pink);" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.composite.HelloController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="148.0" style="-fx-background-color: transparent;">
+            <children>
+                <Button layoutX="20.0" layoutY="87.0" mnemonicParsing="false" onAction="#ClFin" prefHeight="59.0" prefWidth="112.0" style="-fx-border-radius: 20; -fx-background-color: transparent; -fx-border-color: linear-gradient(to top left, steelblue, pink);" text="Альбом">
+                    <font>
+                        <Font name="Josefin Sans" size="18.0" />
+                    </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.7272727832649695">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6000000238418579" green="0.07800000160932541" blue="0.28499993681907654" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.21033138036727905" green="0.38408705592155457" blue="0.6842105388641357" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+                <Button layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#ClSt" prefHeight="59.0" prefWidth="112.0" style="-fx-border-radius: 20; -fx-background-color: transparent; -fx-border-color: linear-gradient(to top left, steelblue, pink);" text="Трек">
+                    <font>
+                        <Font name="Josefin Sans" size="20.0" />
+                    </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.7272727832649695">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6000000238418579" green="0.07800000160932541" blue="0.28499993681907654" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.21033138036727905" green="0.38408705592155457" blue="0.6842105388641357" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+                <Button layoutX="20.0" layoutY="160.0" mnemonicParsing="false" onAction="#ClTr" prefHeight="59.0" prefWidth="112.0" style="-fx-border-radius: 20; -fx-background-color: transparent; -fx-border-color: linear-gradient(to top left, steelblue, pink);" text="Плейлист">
+                    <font>
+                        <Font name="Josefin Sans" size="18.0" />
+                    </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.7272727832649695">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6000000238418579" green="0.07800000160932541" blue="0.28499993681907654" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.21033138036727905" green="0.38408705592155457" blue="0.6842105388641357" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+                <Button layoutX="12.0" layoutY="326.0" mnemonicParsing="false" onAction="#Clean" prefHeight="59.0" prefWidth="123.0" style="-fx-border-radius: 20; -fx-background-color: transparent; -fx-border-color: linear-gradient(to top left, steelblue, pink);" text="Очистить">
+                    <font>
+                        <Font name="Josefin Sans" size="20.0" />
+                    </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.7272727832649695">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6000000238418579" green="0.07800000160932541" blue="0.28499993681907654" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.21033138036727905" green="0.38408705592155457" blue="0.6842105388641357" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+                <Button layoutX="27.0" layoutY="295.0" mnemonicParsing="false" onAction="#clColor" style="-fx-border-radius: 20; -fx-background-color: transparent; -fx-border-color: linear-gradient(to top left, steelblue, pink);" text="Color">
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.7272727832649695">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="0.6000000238418579" green="0.07800000160932541" blue="0.28499993681907654" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.21033138036727905" green="0.38408705592155457" blue="0.6842105388641357" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+                <Button layoutX="74.0" layoutY="295.0" mnemonicParsing="false" onAction="#clWhite" style=" -fx-background-color: transparent; -fx-border-radius: 20; -fx-border-color: linear-gradient(to top left, steelblue, pink);" text="White">
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.7272727832649695">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="0.6000000238418579" green="0.07800000160932541" blue="0.28499993681907654" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.21033138036727905" green="0.38408705592155457" blue="0.6842105388641357" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Pane fx:id="pane" layoutX="147.0" layoutY="-1.0" onMouseClicked="#onClick" prefHeight="400.0" prefWidth="450.0" />
+    </children>
+</AnchorPane>
